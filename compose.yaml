@@ -1,0 +1,12 @@
+services:
+  app:
+    build: .
+    volumes:
+      - .:/workspace
+    # 擬似端末の確保
+    tty: true
+    # 標準入力を開いたままにする
+    stdin_open: true
+    # straceコマンドを実行可能にする設定
+    cap_add:
+      - SYS_PTRACE
