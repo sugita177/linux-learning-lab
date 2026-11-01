@@ -1,0 +1,29 @@
+# Agent instruction files
+AGENTS.md
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Editor / IDE directories
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Practice / Sandbox temporary & dummy files
+*.log
+*.tmp
+*.bak
+*.orig
+*.rej
+tmp/
+sandbox/
+logs/
+artifacts/
+*.tar.gz
+*.tgz
+
