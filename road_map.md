@@ -16,7 +16,7 @@ Webエンジニアが「なんとなく」で使っているコマンドの裏�
 - [x] **シグナルとプロセスのライフサイクル**（`SIGTERM`(15) と `SIGKILL`(9) と `SIGHUP`(1) の違い、バックグラウンド実行 `&` と `wait`、ゾンビプロセス・孤児プロセスが生まれる仕組み）
 - [x] **ファイルシステムの裏側（inodeとリンク）**（`inode` とは何か、ハードリンクとシンボリックリンクの違い、なぜ「開いているファイルを `rm` しても実体が消えない」のか）
 - [x] **カーネル空間・ユーザー空間とシステムコール**（`strace` を使って、コマンドが裏でどんなシステムコール `openat`, `read`, `write` を呼んでいるか覗いてみる）
-- [ ] **ソケット（Socket）の正体と名前解決の仕組み**（`/proc/<pid>/fd` の `socket:[...]` 観察、`/etc/hosts`, `/etc/resolv.conf`, `nsswitch.conf` の優先順位）
+- [x] **ソケット（Socket）の正体と名前解決の仕組み**（`/proc/<pid>/fd` の `socket:[...]` 観察、`/etc/hosts`, `/etc/resolv.conf`, `nsswitch.conf` の優先順位）
 - [ ] **コンテナ・Kubernetesの正体（Linux Namespacesとcgroups）**（「コンテナは仮想マシンではなく隔離されたプロセスである」原理、Network/PID Namespace、cgroupsによるリソース制限）
 
 ### 0-3. 他言語（PHP等）と異なるBash特有の文法と引数処理
